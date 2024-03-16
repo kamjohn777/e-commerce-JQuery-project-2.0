@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+}
+
+.header-top {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

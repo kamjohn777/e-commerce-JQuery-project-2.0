@@ -1,0 +1,48 @@
+.banner_images_container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: none; /* No scroll snapping by default */
+    overscroll-behavior-inline: contain;
+    max-width: 1350px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 10px;
+}
+
+.banner_images_container:hover {
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory; /* Enable scroll snapping on hover */
+}
+
+.img-container {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%;
+    height: 400px;
+    overflow: auto hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* This applies to the .banner_images_container only */
+.banner_images_container::-webkit-scrollbar {
+    height: 10px; /* Slimmer scrollbar */
+}
+
+.banner_images_container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+    border-radius: 25px;
+}
+
+.banner_images_container::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.5); /* More transparent grey color */
+    border-radius: 25px;
+}
+
+.banner_images_container::-webkit-scrollbar-thumb:hover {
+    background: rgba(167, 167, 167, 0.5); /* More transparent grey color on hover */
+}
