@@ -1,6 +1,6 @@
 const { JSDOM } = require('jsdom');
 const jquery = require('jquery');
-const main = require('../main');
+const main = require('../JavaScript/main');
 
 const { window } = new JSDOM('<!doctype html><html><body><ul class="cart"></ul></body></html>');
 global.$ = jquery(window);
