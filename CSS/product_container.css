@@ -8,6 +8,15 @@
     width: 90%;
 }
 
+.side-bar {
+    gap: 30px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .sidebar-category {
     width: 400px;
     border: 1px solid hsl(0, 0%, 93%);
@@ -56,5 +65,37 @@
 
 .menu-title-img-plus img {
     height: 20px;
+}
+
+.sideBar-bestSellers {
+    width: 400px;
+    height: fit-content;
+    /* height: 500px; */
+    /* border: solid 1px grey; */
+    border-radius: 10px;
+}
+
+.sidebar-best-seller-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100%; */
+    height: fit-content;
+    gap: 12px;
+}
+
+.bestseller-title-flex {
+    height: 100%
+}
+
+.bestseller-li {
+    height: 98px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
 }
 
