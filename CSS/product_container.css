@@ -6,6 +6,7 @@
 .pc-sub-container {
     margin: auto;
     width: 90%;
+    display: flex;
 }
 
 .side-bar {
