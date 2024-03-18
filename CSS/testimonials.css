@@ -1,0 +1,12 @@
+.testimonials_main_container {
+    width: 100%;
+    display: flex;
+    background: yellow;
+    margin-top: 60px;
+}
+
+.tmc_sub_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

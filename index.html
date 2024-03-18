@@ -9,11 +9,13 @@
     />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link rel="stylesheet" href="./CSS/header.css" />
-    <link rel="stylesheet" href="./CSS/category_items.css">
-    <link rel="stylesheet" href="./CSS/product_container.css">
-    <link rel="stylesheet" href="./CSS/product_box.css">
-    <link rel="stylesheet" href="./CSS/dealOfDayContent.css">
-    <link rel="stylesheet" href="./CSS/newProductSection.css">
+    <link rel="stylesheet" href="./CSS/category_items.css" />
+    <link rel="stylesheet" href="./CSS/product_container.css" />
+    <link rel="stylesheet" href="./CSS/product_box.css" />
+    <link rel="stylesheet" href="./CSS/dealOfDayContent.css" />
+    <link rel="stylesheet" href="./CSS/newProductSection.css" />
+    <link rel="stylesheet" href="./CSS/testimonials.css">
+    <link rel="stylesheet" href="./CSS/blog_content.css">
     <title>Document</title>
   </head>
   <body>
@@ -184,7 +186,6 @@
       </div>
     </div>
 
-
     <!-- CATEGORY SECTION SIDEBAR -->
 
     <!-- Catogory item section -->
@@ -271,7 +272,11 @@
 
       <div class="category-item">
         <div class="category-img-box">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHrQYihCX5G4QliI-IEJ6TnpnpmNAiAZKSNg&usqp=CAU" alt="t-shirts" width="30" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHrQYihCX5G4QliI-IEJ6TnpnpmNAiAZKSNg&usqp=CAU"
+            alt="t-shirts"
+            width="30"
+          />
         </div>
 
         <div class="category-content-box">
@@ -287,7 +292,11 @@
 
       <div class="category-item">
         <div class="category-img-box">
-          <img src="https://m.media-amazon.com/images/I/71SpAC86v+L._AC_UY1000_.jpg" alt="jacket" width="30" />
+          <img
+            src="https://m.media-amazon.com/images/I/71SpAC86v+L._AC_UY1000_.jpg"
+            alt="jacket"
+            width="30"
+          />
         </div>
 
         <div class="category-content-box">
@@ -303,7 +312,11 @@
 
       <div class="category-item">
         <div class="category-img-box">
-          <img src="https://i5.walmartimages.com/seo/OLEVS-Men-s-Watches-Top-Brand-Luxury-Original-Waterproof-Quartz-Watch-for-Man-Gold-Skeleton-Style-24-Hour-Day-Night-New_7557185a-aa5e-4bcc-9875-222d1bd35db6.38553fb16f92aaf97ca9d9ba9759196e.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" alt="watch" width="30" />
+          <img
+            src="https://i5.walmartimages.com/seo/OLEVS-Men-s-Watches-Top-Brand-Luxury-Original-Waterproof-Quartz-Watch-for-Man-Gold-Skeleton-Style-24-Hour-Day-Night-New_7557185a-aa5e-4bcc-9875-222d1bd35db6.38553fb16f92aaf97ca9d9ba9759196e.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+            alt="watch"
+            width="30"
+          />
         </div>
 
         <div class="category-content-box">
@@ -339,93 +352,229 @@
     </div>
     <!-- End of Catogory item section  -->
 
-
     <!-- PRODUCT CATEGORY SECTION Category -->
 
-   <!-- Product Category section -->
-<div class="product_container">
-    <div class="pc-sub-container">
+    <!-- Product Category section -->
+    <div class="product_container">
+      <div class="pc-sub-container">
         <div class="side-bar">
-            <div class="sidebar-category">
-                <div class="side-bar-top">
-                    <h3>Category</h3>
-                </div>
-                <ul class="sidebar-category-ul">
-                  <!-- DYNAMIC INSIDE OF SIDEBARCATEGORY.JS -->
-                </ul>
+          <div class="sidebar-category">
+            <div class="side-bar-top">
+              <h3>Category</h3>
             </div>
+            <ul class="sidebar-category-ul">
+              <!-- DYNAMIC INSIDE OF SIDEBARCATEGORY.JS -->
+            </ul>
+          </div>
 
-            <div class="sideBar-bestSellers">
-              <div class="best-seller-top">
-                <h3>Best Sellers</h3>
-              </div>
-              <ul class="sidebar-best-seller-ul">
-                <!-- DYNAMIC FOR BESTSELLERS INSIDE SIDEBARCATEGORY.JS -->
-              </ul>
+          <div class="sideBar-bestSellers">
+            <div class="best-seller-top">
+              <h3>Best Sellers</h3>
             </div>
+            <ul class="sidebar-best-seller-ul">
+              <!-- DYNAMIC FOR BESTSELLERS INSIDE SIDEBARCATEGORY.JS -->
+            </ul>
+          </div>
         </div>
 
         <div class="side-body">
           <!-- <h3>hello</h3> -->
-          
-    <!-- PRODUCT BOX SECTION -->
-    <div class="product_box_container">
-      <div class="product-minimal-list">
-        <!-- dynamic products boxes -->
+
+          <!-- PRODUCT BOX SECTION -->
+          <div class="product_box_container">
+            <div class="product-minimal-list">
+              <!-- dynamic products boxes -->
+            </div>
+          </div>
+          <!--  END OF PRODUCT BOX SECTION -->
+
+          <!-- DEAL OF THE DAY SECTION -->
+          <div class="deal_of_day_container">
+            <h3>Deal Of The Day</h3>
+            <hr />
+
+            <div class="dodc-content">
+              <div class="dodc-img">
+                <img src="./Assets/perfume (1).png" alt="" />
+              </div>
+              <div class="dodc-info">
+                <h3>Perfume</h3>
+                <p>Price: $50</p>
+                <p>Discount: 20%</p>
+                <p>Price after discount: $40</p>
+                <button class="dodc-btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- END OF THE DEAL SECTION -->
+
+          <!-- NEW PRODUCT SECTION -->
+          <div class="main_product_container">
+            <h3>New Products</h3>
+            <hr />
+
+            <div class="new_product_container">
+              <div class="new_product_content">
+                <div class="new_product_img">
+                  <img src="./Assets/jeans (1).png" alt="" />
+                </div>
+                <div class="new_product_info">
+                  <h3>Jeans</h3>
+                  <p>Price: $50</p>
+                  <button class="new_product_btn">Buy Now</button>
+                </div>
+              </div>
+              <!-- END OF NEW PRODUCT SECTION -->
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!--  END OF PRODUCT BOX SECTION -->
-
-    <!-- DEAL OF THE DAY SECTION -->
-    <div class="deal_of_day_container">
-      <h3>Deal Of The Day</h3>
-      <hr>
-
-      <div class="dodc-content">
-        <div class="dodc-img">
-          <img src="./Assets/perfume (1).png" alt="">
-        </div>
-        <div class="dodc-info">
-          <h3>Perfume</h3>
-          <p>Price: $50</p>
-          <p>Discount: 20%</p>
-          <p>Price after discount: $40</p>
-          <button class="dodc-btn">Buy Now</button>
-        </div>
-      </div>
-    </div>
-    <!-- END OF THE DEAL SECTION -->
-
-    <!-- NEW PRODUCT SECTION -->
-    <div class="main_product_container">
-      <h3>New Products</h3>
-        <hr>
-
-      <div class="new_product_container">
-        <div class="new_product_content">
-          <div class="new_product_img">
-            <img src="./Assets/jeans (1).png" alt="">
-          </div>
-          <div class="new_product_info">
-            <h3>Jeans</h3>
-            <p>Price: $50</p>
-            <button class="new_product_btn">Buy Now</button>
-          </div>
-        </div>
-      <!-- END OF NEW PRODUCT SECTION -->
-          </div>
-    </div>
-    </div>
-</div>
     <!-- End of product category section -->
 
+    <!-- TESTIMONALS SECTION -->
+
+    <!-- TESTIMONIALS SECTION ELEMENTS -->
+    <div class="testimonials_main_container">
+      <div class="tmc_sub_container">
+      
+          <!-- testimonial -->
+          <div class="testimonial">
+
+            <h2 class="title">testimonial</h2>
+
+            <div class="testimonial-card">
+
+              <img src="./assets/images/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
+
+              <p class="testimonial-name">Alan Doe</p>
+
+              <p class="testimonial-title">CEO &amp; Founder Invision</p>
+
+              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+
+              <p class="testimonial-desc">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum
+                dolor dolor sit amet.
+              </p>
+
+            </div>
+
+          </div>
+
+          <!-- CTA -->
+          <div class="cta-container">
+
+            <img src="./assets/images/cta-banner.jpg" alt="summer collection" class="cta-banner">
+
+            <a href="#" class="cta-content">
+
+              <p class="discount">25% Discount</p>
+
+              <h2 class="cta-title">Summer collection</h2>
+
+              <p class="cta-text">Starting @ $10</p>
+
+              <button class="cta-btn">Shop now</button>
+
+            </a>
+
+          </div>
+        
+
+        <!-- Service -->
+        <div class="service">
+
+          <h2 class="title">Our Services</h2>
+
+          <div class="service-container">
+
+            <a href="#" class="service-item">
+
+              <div class="service-icon">
+                <ion-icon name="boat-outline" role="img" class="md hydrated" aria-label="boat outline"></ion-icon>
+              </div>
+
+              <div class="service-content">
+
+                <h3 class="service-title">Worldwide Delivery</h3>
+                <p class="service-desc">For Order Over $100</p>
+
+              </div>
+
+            </a>
+
+            <a href="#" class="service-item">
+            
+              <div class="service-icon">
+                <ion-icon name="rocket-outline" role="img" class="md hydrated" aria-label="rocket outline"></ion-icon>
+              </div>
+            
+              <div class="service-content">
+            
+                <h3 class="service-title">Next Day delivery</h3>
+                <p class="service-desc">UK Orders Only</p>
+            
+              </div>
+            
+            </a>
+
+            <a href="#" class="service-item">
+            
+              <div class="service-icon">
+                <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="call outline"></ion-icon>
+              </div>
+            
+              <div class="service-content">
+            
+                <h3 class="service-title">Best Online Support</h3>
+                <p class="service-desc">Hours: 8AM - 11PM</p>
+            
+              </div>
+            
+            </a>
+
+            <a href="#" class="service-item">
+            
+              <div class="service-icon">
+                <ion-icon name="arrow-undo-outline" role="img" class="md hydrated" aria-label="arrow undo outline"></ion-icon>
+              </div>
+            
+              <div class="service-content">
+            
+                <h3 class="service-title">Return Policy</h3>
+                <p class="service-desc">Easy &amp; Free Return</p>
+            
+              </div>
+            
+            </a>
+
+            <a href="#" class="service-item">
+            
+              <div class="service-icon">
+                <ion-icon name="ticket-outline" role="img" class="md hydrated" aria-label="ticket outline"></ion-icon>
+              </div>
+            
+              <div class="service-content">
+            
+                <h3 class="service-title">30% money back</h3>
+                <p class="service-desc">For Order Over $100</p>
+            
+              </div>
+            
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- END OF TESTIMONIALS ELEMENTS -->
 
     <!-- <script src="./JavaScript/main.js"></script> -->
     <script src="./JavaScript/sideBarCategory.js"></script>
     <script src="./JavaScript/productBox.js"></script>
     <script src="./JavaScript/newProductSection.js"></script>
+    <script src="./JavaScript/blogContent.js"></script>
   </body>
 </html>
-
-
-
