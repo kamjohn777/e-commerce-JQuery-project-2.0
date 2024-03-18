@@ -1,0 +1,15 @@
+.blog_main_container {
+    width: 100%;
+    display: flex;
+    background: rgb(135, 135, 34);
+    margin-top: 60px;
+}
+
+.blog_sub_container {
+    width: 100%;
+    display: flex;
+}
+
+.blog-content-container {
+    display: flex;
+}
