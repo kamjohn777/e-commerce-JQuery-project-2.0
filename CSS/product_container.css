@@ -8,10 +8,11 @@
     width: 90%;
     display: flex;
     gap: 30px;
+    align-items: flex-start;  
 }
 
 .side-bar {
-    gap: 30px;
+    gap: 15px;
     width: fit-content;
     display: flex;
     flex-direction: column;
