@@ -124,7 +124,7 @@ a {
 }
 
 .add-cart-btn {
-    background: var(--salmon-pink);
+    background: rgba(251, 231, 119, 1);
     padding: 8px 15px;
     color: var(--white);
     font-weight: var(--fs-9);
@@ -136,6 +136,9 @@ a {
     -webkit-transition: var(--transition-timing);
     -o-transition: var(--transition-timing);
     transition: var(--transition-timing);
+    width: 200px;
+    height: 52px;
+    border: none;
 }
 
 .showcase-status {
@@ -177,7 +180,7 @@ a {
     left: 3px;
     height: 4px;
     width: 40%;
-    background: var(--salmon-pink);
+    background: rgba(251, 231, 119, 1);
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
