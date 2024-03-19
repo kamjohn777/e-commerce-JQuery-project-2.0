@@ -5,10 +5,11 @@ footer {
     /* height: fit-content; */
     /* height: 700px; */
     height: 1000px;
-    display: flex;
+    display: block;
+    /* display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
 }
 
 .Brand-category {
@@ -55,16 +56,36 @@ footer {
 
 .footer-nav {
     height: 320px;
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid hsl(0, 0%, 93%); */
 }
 
 .popular-categories {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    width: 90%;
+    justify-content: space-evenly;
 }
 
 .footer-nav-list {
     width: 320px;
     list-style: none;
 }
+
+.footer-img-wrap img {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.footer-img-wrap {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
