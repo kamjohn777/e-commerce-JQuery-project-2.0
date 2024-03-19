@@ -1,8 +1,10 @@
 footer {
     background: hsl(0, 0%, 13%);
     /* height: 500px; */
-    max-height: 700px;
-    height: fit-content;
+    /* max-height: 700px; */
+    /* height: fit-content; */
+    /* height: 700px; */
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -19,8 +21,10 @@ footer {
     display: flex;
     width: fit-content;
     flex-direction: column;
-    height: 50%;
+    height: 25%;
     margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     justify-content: space-around;
 }
 
@@ -47,4 +51,20 @@ footer {
 .footer-category-box {
     display: flex;
     gap: 10px;
+}
+
+.footer-nav {
+    height: 320px;
+    width: 90%;
+}
+
+.popular-categories {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-nav-list {
+    width: 320px;
+    list-style: none;
 }
