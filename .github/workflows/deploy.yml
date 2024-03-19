@@ -1,3 +1,16 @@
+# name: Deployment
+
+# on:
+#   push:
+#     branches: [ main ]
+
+# jobs:
+#   test-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: 'Checkout git repo'
+#         uses: actions/checkout@v3
+
 name: Deployment
 
 on:
@@ -10,3 +23,11 @@ jobs:
     steps:
       - name: 'Checkout git repo'
         uses: actions/checkout@v3
+
+      - name: 'Deploy to Vercel'
+        uses: amondnet/vercel-action@v19
+        with:
+          vercel-token: ${{ SECRETS_VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} 
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} 
+          github-token: ${{ secrets.GITHUB_TOKEN }} 
