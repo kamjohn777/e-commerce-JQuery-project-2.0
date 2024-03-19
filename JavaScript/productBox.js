@@ -52,7 +52,7 @@ productBoxTitles.forEach(function (productBoxTitle) {
             <div class="showcase-container">
                 ${productsHTML1}
             </div>
-            <div class="showcase-container">
+            <div class="showcase-container showcase-contain-2">
                 ${productsHTML2}
             </div>
         </div>

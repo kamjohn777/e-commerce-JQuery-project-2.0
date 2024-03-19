@@ -66,6 +66,15 @@
 .menu-title-flex {
     display: flex;
     align-items: center;
+    gap: 20px;
+}
+
+.bestseller-li {
+    height: 98px;
+    /* border: 1px solid lightgray; */
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
 }
 
 .menu-title-img-plus img {
@@ -98,7 +107,7 @@
 
 .bestseller-li {
     height: 98px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     border-radius: 15px;
     width: 100%;
     padding: 10px;

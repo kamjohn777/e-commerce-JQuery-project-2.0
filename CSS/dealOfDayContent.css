@@ -1,3 +1,39 @@
+:root {
+    --spanish-gray: hsl(0, 0%, 60%);
+    --sonic-silver: hsl(0, 0%, 47%);
+    --eerie-black: hsl(0, 0%, 13%);
+    --salmon-pink: hsl(353, 100%, 78%);
+    --sandy-brown: hsl(29, 90%, 65%);
+    --bittersweet: hsl(0, 100%, 70%);
+    --ocean-green: hsl(152, 51%, 52%);
+    --davys-gray: hsl(0, 0%, 33%);
+    --cultured: hsl(0, 0%, 93%);
+    --white: hsl(0, 100%, 100%);
+    --onyx: hsl(0, 0%, 27%);
+    --fs-1: 1.563rem;
+    --fs-2: 1.375rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1rem;
+    --fs-6: 0.938rem;
+    --fs-7: 0.875rem;
+    --fs-8: 0.813rem;
+    --fs-9: 0.75rem;
+    --fs-10: 0.688rem;
+    --fs-11: 0.625rem;
+    --weight-300: 300;
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+    --border-radius-md: 10px;
+    --border-radius-sm: 5px;
+    --transition-timing: 0.2s ease;
+}
+
+
+
+
 .dodc-content {
     display: flex;
     width: 100%;
@@ -14,12 +50,158 @@
 .dodc-info {
     width: 100%;
 }
-
+/* 
 .deal_of_day_container h3 {
     margin-bottom: 5px;
-    font-size: 25px;
-}
+    font-size: 20px;
+} */
 
 .deal_of_day_container hr {
     margin-bottom: 30px;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.showcase-rating {
+    color: var(--sandy-brown);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.showcase-title {
+    font-size: 20px;
+    color: var(--eerie-black);
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    font-family: sans-serif;
+}
+
+.showcase-desc {
+    color: var(--sonic-silver);
+    font-size: var(--fs-4);
+    font-weight: var(--weight-300);
+    margin-bottom: 10px;
+}
+
+.price-box {
+    font-size: var(--fs-3);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.product-featured .price {
+    color: var(--salmon-pink);
+    font-weight: var(--weight-700);
+}
+
+.product-featured del {
+    color: var(--sonic-silver);
+    font-weight: var(--weight-300);
+}
+
+.add-cart-btn {
+    background: var(--salmon-pink);
+    padding: 8px 15px;
+    color: var(--white);
+    font-weight: var(--fs-9);
+    font-weight: var(--weight-700);
+    text-transform: uppercase;
+    -webkit-border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-md);
+    margin-bottom: 15px;
+    -webkit-transition: var(--transition-timing);
+    -o-transition: var(--transition-timing);
+    transition: var(--transition-timing);
+}
+
+.showcase-status {
+    margin-bottom: 15px;
+}
+
+.showcase-status .wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--eerie-black);
+    font-size: var(--fs-9);
+    font-weight: var(--weight-400);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.showcase-status-bar {
+    background: var(--cultured);
+    position: relative;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.showcase-status-bar::before {
+    position: absolute;
+    content: '';
+    top: 3px;
+    left: 3px;
+    height: 4px;
+    width: 40%;
+    background: var(--salmon-pink);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.countdown-desc {
+    color: var(--eerie-black);
+    font-size: var(--fs-9);
+    font-weight: var(--weight-600);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.countdown {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5px;
+}
+
+.countdown-content {
+    padding: 5px;
+    background: var(--cultured);
+    -webkit-border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-md);
+    text-align: center;
 }

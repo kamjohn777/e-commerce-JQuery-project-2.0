@@ -60,7 +60,7 @@ bestsellers.forEach(function (bestseller) {
     <div class="menu-title-flex bestseller-title-flex">
         <img src="${bestseller.img}" alt="${bestseller.title}" width="85" height="85" class="menu-title-img bestseller-img">
 
-        <div>
+        <div class="menu-title-container">
         <p class="menu-title">${bestseller.title}</p>
         <p class="menu-title-stars">Stars</p>
         <p class="menu-title-price">Price: $50</p>

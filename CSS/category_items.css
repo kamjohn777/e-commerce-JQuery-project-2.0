@@ -65,3 +65,8 @@
     width: 84px;
     border-radius: 5px;
 }
+
+.category-btn {
+    text-decoration: none;
+    color: rgba(247, 195, 73, 1);
+}
