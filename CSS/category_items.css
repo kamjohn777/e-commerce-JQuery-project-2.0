@@ -21,6 +21,12 @@
     overscroll-behavior-inline: contain;
     height: 130px;
     gap: 15px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Make scrollbar transparent by default */
+}
+
+.category-item-container:hover {
+    scrollbar-color: auto; /* Show scrollbar on hover */
 }
 
 .category-item-container > div {

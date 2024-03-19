@@ -1,0 +1,7 @@
+footer {
+    background: hsl(0, 0%, 13%);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
