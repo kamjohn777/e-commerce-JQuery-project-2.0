@@ -220,6 +220,7 @@ a {
     .dodc-content {
         flex-direction: column;
         align-items: center;
+        margin-top: 930px;
     }
 
     .dodc-content img {
