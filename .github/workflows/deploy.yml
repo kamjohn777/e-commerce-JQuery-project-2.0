@@ -12,6 +12,9 @@ jobs:
       - name: 'Checkout git repo'
         uses: actions/checkout@v2
 
+      - name: 'Check Node.js version'
+        run: node -v
+
       - name: 'Deploy to Vercel'
         uses: amondnet/vercel-action@v20
         with:
