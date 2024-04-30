@@ -1,25 +1,13 @@
-# name: Deployment
-
-# on:
-#   push:
-#     branches: [ main ]
-
-# jobs:
-#   test-and-deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: 'Checkout git repo'
-#         uses: actions/checkout@v3
-
 name: Deployment
-
+# this pushes the code to the main branch
 on:
   push:
     branches: [ main ]
-
+# jobs are the steps that are executed to deploy the code
 jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
+    # steps are the tasks that are executed they can either be actions or shell commands
     steps:
       - name: 'Checkout git repo'
         uses: actions/checkout@v3

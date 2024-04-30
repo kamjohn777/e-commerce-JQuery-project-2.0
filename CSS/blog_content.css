@@ -122,3 +122,44 @@
     font-family: sans-serif;
     text-decoration: none;
 }
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .blog_main_container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .blog_sub_container {
+        flex-direction: column;
+    }
+
+    .blog-content-container {
+        flex-direction: column;
+    }
+
+    .blog-content-item {
+        align-items: center;
+    }
+
+    .blog-content-img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .blog-content-title {
+        text-align: center;
+    }
+
+    .blog-content-desc {
+        text-align: center;
+    }
+
+    .blog-content-info {
+        align-items: center;
+    }
+
+    .blog-content-btn {
+        text-align: center;
+    }
+}
