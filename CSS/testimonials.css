@@ -160,4 +160,8 @@
     .pit-content {
       height: auto;
     }
+
+    hr {
+        width: 100%;
+    }
   }

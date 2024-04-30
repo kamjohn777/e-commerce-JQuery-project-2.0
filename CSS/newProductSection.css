@@ -20,6 +20,14 @@
     border-radius: 10px;
 }
 
+
+.new-product-images-js {
+    /* height: 100px;
+    width: 100px; */
+    height: 150px;
+    width: 280px;
+}
+
 @media only screen and (max-width: 600px) {
     .main_product_container {
       height: auto;
@@ -31,6 +39,18 @@
     }
   
     .new_product_content {
-      height: auto;
+        /* height: 230px; */
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .new-product-images-js {
+        /* height: 100px;
+        width: 100px; */
+        height: 150px;
+        width: 280px;
     }
   }

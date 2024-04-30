@@ -46,7 +46,7 @@ productBoxTitles.forEach(function (productBoxTitle) {
     <div class="product-box-title-flex">
         <p class="product-box-title">${productBoxTitle.title}</p>
     </div>
-    <hr style="width: 300px;">
+    <hr class="product-hr">
     <div class="product-showcase">
         <div class="showCase-wrap has-scroll">
             <div class="showcase-container">
