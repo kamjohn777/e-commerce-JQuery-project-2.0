@@ -191,13 +191,25 @@
     width: 100%;
   }
 
+  
   /* .showCase-wrap {
     width: 100%;
   } */
-  .showCase-wrap {
+  /* .showCase-wrap {
     width: 100%;
-    overflow-x: scroll; /* Add this line */
-  }
+    overflow-x: scroll;
+  } */
+
+  .showCase-wrap {
+    display: flex;
+    width: 100%;
+    /* overflow-x: hidden; */
+    justify-content: space-around;
+}
+
+.product-showcase {
+  margin-top: 10px;
+}
 
 
   .showcase {
