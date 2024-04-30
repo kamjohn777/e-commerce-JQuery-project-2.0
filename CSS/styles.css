@@ -111,3 +111,14 @@
 .banner_images_container::-webkit-scrollbar-thumb:hover {
     background: rgba(167, 167, 167, 0.5); /* More transparent grey color on hover */
 }
+
+@media only screen and (max-width: 600px) {
+    .banner_images_container {
+      max-width: 100%;
+      overflow-x: scroll; /* Enable horizontal scrolling on smaller screens */
+    }
+  
+    .img-container {
+      height: 200px; /* Adjust the height of the images for smaller screens */
+    }
+  }

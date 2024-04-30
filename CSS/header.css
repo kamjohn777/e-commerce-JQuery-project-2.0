@@ -227,3 +227,38 @@ nav {
     -o-transition: var(--transition-timing);
     transition: var(--transition-timing);
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .search-field {
+    width: 100%;
+  }
+
+  .header-social-container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .container-menu {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links li {
+    text-align: center;
+  }
+}

@@ -170,3 +170,41 @@
 .showcase-contain-2 {
     margin-left: 20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .side-body {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .product_box_container {
+    max-height: auto;
+  }
+
+  .product-minimal-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-box-titles {
+    width: 100%;
+  }
+
+  /* .showCase-wrap {
+    width: 100%;
+  } */
+  .showCase-wrap {
+    width: 100%;
+    overflow-x: scroll; /* Add this line */
+  }
+
+
+  .showcase {
+    width: 100%;
+  }
+
+  .showcase-contain-2 {
+    margin-left: 0;
+  }
+}

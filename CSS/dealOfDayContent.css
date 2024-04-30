@@ -208,3 +208,62 @@ a {
     border-radius: var(--border-radius-md);
     text-align: center;
 }
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .deal_of_day_container {
+        display: block;
+        /* other styles */
+    }
+
+    .dodc-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dodc-content img {
+        height: auto;
+        width: 100%;
+    }
+
+    .dodc-info {
+        margin-top: 20px;
+    }
+
+    .showcase-content {
+        align-items: center;
+    }
+
+    .showcase-rating {
+        justify-content: center;
+    }
+
+    .showcase-title {
+        text-align: center;
+    }
+
+    .showcase-desc {
+        text-align: center;
+    }
+
+    .price-box {
+        justify-content: center;
+    }
+
+    .add-cart-btn {
+        width: 100%;
+    }
+
+    .showcase-status .wrapper {
+        flex-direction: column;
+    }
+
+    .countdown {
+        justify-content: center;
+    }
+
+    .countdown-content {
+        width: 100%;
+    }
+}
